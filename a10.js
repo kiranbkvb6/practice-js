@@ -3,12 +3,23 @@
 
 
 const arr=[{name:'kiran',age:20},{name:'kumar',age:15},{name:'raj',age:30}];
+//1st way of solving this filter function using explicit function
 
-//correct way to do it using filter function.
-let newarr=arr.filter(function(user){
+function votereligibility(user){//the parameter here is each object of the array
     return user.age>=18;
-});
+};
+
+let newarr=arr.filter(votereligibility)// filter function inputs are only a function
+
 console.log(newarr);
+
+
+
+
+
+
+
+
 
 
 
