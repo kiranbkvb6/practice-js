@@ -6,7 +6,7 @@ function canVote(age){
         console.log("yes u can vote my dear gandu");
         return "yes";
     }else{
-        let decision='pehele dimaagh ki batti jala ke aa gandu';
+        console.log('pehle dimaagh ki batti jala ke aa gandu');
         return 'no';
     }
     
@@ -15,3 +15,5 @@ function canVote(age){
 let result=canVote(20);
 console.log("Can I vote? "+result);
 
+let result1=canVote(15);
+console.log("Can I vote? "+result1);
