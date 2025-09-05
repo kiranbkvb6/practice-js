@@ -14,3 +14,7 @@ sumn(10);
 sumn(0);
 sumn(-3);
 sumn(100);
+
+sumn(50);
+sumn(150);
+sumn(200);
