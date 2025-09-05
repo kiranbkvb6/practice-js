@@ -14,7 +14,13 @@ let newarr=arr.filter(votereligibility)// filter function inputs are only a func
 console.log(newarr);
 
 
+//2nd way of solving this filter function using inline  function
 
+let newarr1=arr.filter(function(user){//the parameter here is each object of array
+    return user.age>=18;
+});// filter function inputs are only a function
+
+console.log(newarr1);
 
 
 
