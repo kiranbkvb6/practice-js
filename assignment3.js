@@ -12,38 +12,7 @@ function canVote(age){
     
 }
 
-let result=canVote(20);
-console.log("Can I vote? "+result);
-
-let result1=canVote(15);
-console.log("Can I vote? "+result1);
-
-let result2=canVote('kiran');
-console.log("Can I vote? "+result2);    
-
-let result3=canVote(true);
-console.log("Can I vote? "+result3);    
-
-let result4=canVote(false);
-console.log("Can I vote? "+result4);    
-
-//Side quest - Try passing in a string instead of a number and see what happens?                
-
-let result5=canVote('18');
-console.log("Can I vote? "+result5);
-
-let result6=canVote('seventeen');
-console.log("Can I vote? "+result6);
-
-let result7=canVote(null);
-console.log("Can I vote? "+result7);
-
-let result8=canVote(undefined);
-console.log("Can I vote? "+result8);
-
-let result9=canVote(NaN);
-console.log("Can I vote? "+result9);
-
-let result10=canVote(-19);
-console.log("Can I vote? "+result10);
-
+let result11=canVote(45);
+console.log("Can I vote? "+result11);
+let result12=canVote('45');
+console.log("Can I vote? "+result12);
