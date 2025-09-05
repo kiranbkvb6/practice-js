@@ -22,8 +22,11 @@ let newarr1=arr.filter(function(user){//the parameter here is each object of arr
 
 console.log(newarr1);
 
+//3rd way of solving this filter function using arrow function
 
+let newarr3=arr.filter(user=>user.age>=18);// filter function inputs are operations
 
+console.log(newarr3);
 
 
 
