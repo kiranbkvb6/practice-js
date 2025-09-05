@@ -7,5 +7,5 @@ function sum(x,y){
     return result;
 }
 
-let finalResult=sum(34,67);
+let finalResult=sum('kiran',67);
 console.log('The Result of then sum of two numbers 34 & 67 is :'+finalResult);
